@@ -1,0 +1,142 @@
+@import url("https://use.typekit.net/qae0ozk.css");
+
+
+:root{
+    --primary-color:#22487F;
+    --accent-color:#39B54A;
+    --white-color:#fff;      
+}
+
+.mb-0 p:last-child{
+    margin-bottom:0
+}
+
+.siteHeader.elementor-sticky--active{
+    box-shadow:0px 0px 10px rgba(0,0,0,0.35)
+}
+.elementor-16 .elementor-element.elementor-element-0dce336 img{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.elementor-16 .elementor-sticky--active .elementor-element.elementor-element-0dce336 img{
+    width:50px;
+}
+
+
+
+.heroBanner .swiper-slide-inner{
+    max-width:1170px;
+    margin:auto;
+}
+.heroBanner .swiper-pagination{
+    position: absolute;
+    bottom:50px;
+    z-index: 999;
+}
+
+.heroBanner .elementor-swiper-button{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    z-index: 999;
+    cursor:pointer
+}
+
+.heroBanner .elementor-swiper-button.elementor-swiper-button-next{
+    right:100px
+}
+
+.heroBanner .elementor-swiper-button.elementor-swiper-button-prev{
+    left:100px
+}
+
+.heroBanner .elementor-swiper-button i::before{
+    content:"";
+    font-family:"Font Awesome 6 Pro"!important;
+    font-weight:300
+}
+
+.heroBanner .elementor-swiper-button.elementor-swiper-button-prev i::before{
+    content:"\f053";
+}
+
+.heroBanner .elementor-swiper-button.elementor-swiper-button-next i::before{
+    content:"\f054";
+}
+
+.logoSlider .slick-slide{
+    margin:0
+}
+.logoSlider .slick-slide div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSlider .slick-slide .lswssp-logo-img-wrap img{
+    max-height:22px!important
+}
+
+.logoSlider .slick-arrow{
+    background:none;
+}
+
+.logoSlider .slick-slide .lswssp-post-140 .lswssp-logo-img-wrap img{
+    max-height:30px!important
+}
+
+.reviewSlider .elementor-testimonial i{
+    font-family: "Font Awesome 6 Sharp"!important;
+    font-weight: 900;
+    font-style: normal;
+    font-size:40px;
+    margin:0 5px
+}
+
+
+.reviewSlider .elementor-widget-container{
+    overflow:hidden
+}
+.reviewSlider i{
+    font-size:16px;
+}
+.reviewSlider i::before{
+    font-family: "Font Awesome 6 Sharp"!important;
+    font-weight: 900;
+}
+.reviewSlider .elementor-swiper-button-prev{
+    margin-left:100px;
+}
+.reviewSlider .elementor-swiper-button-next{
+    margin-right:100px;
+}
+.reviewSlider i.eicon-chevron-left::before{
+    content:"\f053";
+}
+.reviewSlider i.eicon-chevron-right::before{
+    content:"\f054";
+}
+.reviewSlider .elementor-main-swiper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom:0!important;
+ }
+ .reviewSlider .swiper-pagination {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -20px;
+  }
+ .reviewSlider .swiper-notification{
+    display:none;
+ }

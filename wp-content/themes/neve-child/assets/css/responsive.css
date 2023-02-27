@@ -1,0 +1,107 @@
+@media screen and (max-width:1599px){    
+    
+}
+
+
+@media screen and (max-width:1299px){
+    
+}
+
+@media screen and (max-width:1279px){
+   body .elementor .siteFooter .elementor-inner-section .elementor-container .elementor-column{
+    width:100%;
+   }
+   .siteHeader .cstLogo img{
+    height: 65px;;
+   }
+
+   body .elementor .mobileMenu.elementor-widget-nav-menu{
+    width:auto;
+   }
+
+   body .elementor .mobileMenu .elementor-button-icon{
+    font-size: 30px;
+    line-height: normal;
+    display: flex;
+   }
+   body .elementor .mobileMenu .elementor-button-wrapper{
+    display:flex;
+    align-items: center;
+   }
+
+   body .elementor .siteHeader .elementor-widget-container{
+    margin-left:25px!important;
+   }
+
+   body .elementor .siteHeader .cstLogo .elementor-widget-container,
+   body .elementor .siteHeader .mobileLogo .elementor-widget-container{
+      margin-left:0!important;
+      display:flex;
+   }
+  
+}
+
+@media screen and (max-width:1023px){
+   body .elementor .elementor-top-section.heroArea {
+      height:80vh
+   }
+}
+
+
+@media screen and (max-width:767px){
+   .col{
+      flex:1 auto;
+      margin:15px;
+   }
+   body .elementor .siteHeader .cstLogo .elementor-widget-container, body .elementor .siteHeader .mobileLogo img{
+      max-width:60px;      
+   }
+   body .elementor .siteHeader .mobileLogo{
+      margin-bottom:0!important
+   }
+   body .elementor-popup-modal.mobileMenuPopup{
+      background-color:transparent!important
+   }
+   body .elementor-popup-modal.mobileMenuPopup .dialog-lightbox-message{
+      width:100vw!important;
+   }
+   body .elementor .siteHeader .mobileLogo img{
+      -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   }
+   body .elementor .siteHeader.stickyHeader .mobileLogo img{
+      max-width:40px;
+   }
+
+   .formWrap .wpcf7-form-control{
+      min-height:auto;
+      height:50px;
+      font-size:20px;
+   }
+   .formWrap textarea.wpcf7-form-control{
+      height:150px;
+   }
+   label.label{
+      font-size:17px;
+      line-height:normal;
+      font-weight:800;
+      top:-11px;
+   }
+   .formWrap .wpcf7-form-control.bttn{
+      font-size:14px;
+   }
+   .careerPage .optBttn .elementor-button-wrapper::before{
+      width:60px;
+      height:77px;
+   }
+   .careerPage .optBttn .elementor-button{
+      min-width:210px;
+   }
+
+
+
+   
+}
